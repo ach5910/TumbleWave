@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Count : MonoBehaviour {
 
-    public static int count;
-    private Text score;
+    public static long count;
+    public static Text score;
 	void Start () {
         count = 0;
         score = GetComponent<Text>();

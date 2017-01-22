@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{B443E244-4608-C2E3-67E6-C51E70D6E7E6}") = "AngryBirdish", "Assembly-CSharp.csproj", "{7E2CA57A-7007-B95D-7BC0-13FB1597BB67}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryBirdish", "AngryBirdish.csproj", "{0F81F7FE-DE2A-4AA0-FBA2-610B7230F356}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E2CA57A-7007-B95D-7BC0-13FB1597BB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E2CA57A-7007-B95D-7BC0-13FB1597BB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E2CA57A-7007-B95D-7BC0-13FB1597BB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E2CA57A-7007-B95D-7BC0-13FB1597BB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F81F7FE-DE2A-4AA0-FBA2-610B7230F356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F81F7FE-DE2A-4AA0-FBA2-610B7230F356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F81F7FE-DE2A-4AA0-FBA2-610B7230F356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F81F7FE-DE2A-4AA0-FBA2-610B7230F356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
