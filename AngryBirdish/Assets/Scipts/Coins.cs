@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Coins : MonoBehaviour {
@@ -12,7 +10,6 @@ public class Coins : MonoBehaviour {
     {
         if (other.GetComponent<Rigidbody2D>() == projectile)
         {
-            //gameObject.SetActive(false);
             Count.count += 100;
             coinHit = true;
             Destroy(gameObject);
