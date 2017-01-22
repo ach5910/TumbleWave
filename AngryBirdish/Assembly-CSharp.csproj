@@ -46,13 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scipts\Coins.cs" />
-     <Compile Include="Assets\Scipts\Count.cs" />
-     <Compile Include="Assets\Scipts\Hat.cs" />
-     <Compile Include="Assets\Scipts\ProjectileDragging.cs" />
-     <Compile Include="Assets\Scipts\ProjectileFollow.cs" />
-     <Compile Include="Assets\Scipts\Resetter.cs" />
-     <Compile Include="Assets\Scipts\SpeedBoost.cs" />
+     <Compile Include="Assets\Scripts\Coins.cs" />
+     <Compile Include="Assets\Scripts\Count.cs" />
+     <Compile Include="Assets\Scripts\Hat.cs" />
+     <Compile Include="Assets\Scripts\LoadOnClick.cs" />
+     <Compile Include="Assets\Scripts\ProjectileDragging.cs" />
+     <Compile Include="Assets\Scripts\ProjectileFollow.cs" />
+     <Compile Include="Assets\Scripts\Resetter.cs" />
+     <Compile Include="Assets\Scripts\SpeedBoost.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>

@@ -1,0 +1,35 @@
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Resetter : MonoBehaviour
+{
+	public Rigidbody2D projectile;
+	public float resetSpeed = 0.025f;
+
+	private float resetSpeedSqr;
+	private SpringJoint2D spring;
+
+	void Start()
+	{
+		resetSpeedSqr = resetSpeed * resetSpeed;
+		spring = projectile.GetComponent<SpringJoint2D>();
+	}
+	void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.R))
+			restartCurrentScene();
+		if (spring == null && projectile.velocity.sqrMagnitude < resetSpeedSqr)
+			restartCurrentScene();
+	}
+	void OnTriggerExit2D(Collider2D other)
+	{
+		if (other.GetComponent<Rigidbody2D>() == projectile)
+			restartCurrentScene();
+	}
+	void restartCurrentScene()
+	{
+		int scene = SceneManager.GetActiveScene().buildIndex;
+		SceneManager.LoadScene(scene, LoadSceneMode.Single);
+		//Application.LoadLevel (Application.loadedLevel);
+	}
+}
